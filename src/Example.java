@@ -5,11 +5,11 @@ public class Example {
 	    public static void main(String args[]) {
 	         
 	        //Preparing some linked list structure
-	        LinkedList linkedList = new LinkedList(5);
-	        linkedList.next = new LinkedList(4);
+	        LinkedList linkedList = new LinkedList(1);
+	        linkedList.next = new LinkedList(2);
 	        linkedList.next.next = new LinkedList(3);
-	        linkedList.next.next.next = new LinkedList(2);
-	        linkedList.next.next.next.next = new LinkedList(1);
+	        linkedList.next.next.next = new LinkedList(4);
+	        linkedList.next.next.next.next = new LinkedList(5);
 	 
 	        System.out.println("Original Linked List: " + linkedList.toString());
 	 
